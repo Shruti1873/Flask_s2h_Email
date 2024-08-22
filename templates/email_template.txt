@@ -1,0 +1,10 @@
+Dear {{ name }},
+
+Thank you for your message:
+
+{{ message }}
+
+We will get back to you soon.
+
+Best Regards,
+Company Name

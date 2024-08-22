@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: #f2f2f2; /* Light grey background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Container for the form */
+.form-container {
+    width: 400px; /* Increased width for more space */
+    margin: 50px auto; /* Center the form horizontally and add space from top */
+    padding: 30px; /* Increased padding for more inner space */
+    background-color: #fff; /* White background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the form */
+    border-radius: 8px; /* Rounded corners for the container */
+}
+
+/* Header styling */
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 25px; /* Space below the heading */
+}
+
+/* Label styling */
+label {
+    display: block; /* Ensure label takes up full width */
+    margin-bottom: 8px; /* Space below the label */
+}
+
+/* Input and textarea field styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Make input fields take up full width of the container */
+    padding: 12px; /* More space inside the input fields */
+    margin-bottom: 20px; /* Space below each field */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Button takes up full width */
+    padding: 12px; /* Space inside the button */
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Slightly larger font size for readability */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error message styling */
+.error {
+    color: red; /* Red color for error messages */
+    font-size: 0.875em; /* Slightly smaller font size */
+    margin-top: -10px; /* Reduce space above the error message */
+    margin-bottom: 10px; /* Space below the error message */
+}
